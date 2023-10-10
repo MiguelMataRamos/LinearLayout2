@@ -22,7 +22,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-
+            android:text="HOLA"
             >
 
         </TextView>
@@ -32,6 +32,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
+            android:text="K DISE"
             >
 
         </TextView>
@@ -41,6 +42,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
+            android:text="ER TIO"
             >
 
         </TextView>
@@ -57,23 +59,50 @@
         android:orientation="vertical">
 
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center">
 
-        </Button>
+            <Button
+                android:layout_width="253dp"
+                android:layout_height="131dp">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            </Button>
+        </LinearLayout>
 
-        </Button>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
 
-        </Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center">
+
+
+            <Button
+                android:layout_width="253dp"
+                android:layout_height="131dp">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="253dp"
+                android:layout_height="131dp">
+
+            </Button>
+        </LinearLayout>
 
 
     </LinearLayout>
