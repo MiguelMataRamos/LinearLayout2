@@ -67,8 +67,10 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/bocata"
                 android:layout_width="253dp"
-                android:layout_height="131dp">
+                android:layout_height="131dp"
+                android:text="CHORISO">
 
             </Button>
         </LinearLayout>
@@ -84,8 +86,10 @@
 
 
             <Button
+                android:id="@+id/eneryeti"
                 android:layout_width="253dp"
-                android:layout_height="131dp">
+                android:layout_height="131dp"
+                android:text="MANGO-PIÑA">
 
             </Button>
         </LinearLayout>
@@ -98,8 +102,10 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/jagger"
                 android:layout_width="253dp"
-                android:layout_height="131dp">
+                android:layout_height="131dp"
+                android:text="JAGERMAISTER">
 
             </Button>
         </LinearLayout>
